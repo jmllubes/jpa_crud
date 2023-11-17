@@ -81,4 +81,13 @@ public class Pregunta {
     public void setTemaHasPreguntasByIdpregunta(Collection<TemaHasPregunta> temaHasPreguntasByIdpregunta) {
         this.temaHasPreguntasByIdpregunta = temaHasPreguntasByIdpregunta;
     }
+
+    @Override
+    public String toString() {
+        return "Pregunta{" +
+                "idpregunta=" + idpregunta +
+                ", pregunta='" + pregunta + '\'' +
+                ", correcta=" + correcta +
+                '}';
+    }
 }

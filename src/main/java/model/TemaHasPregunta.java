@@ -70,4 +70,12 @@ public class TemaHasPregunta {
     public void setPreguntaByPreguntaIdpregunta(Pregunta preguntaByPreguntaIdpregunta) {
         this.preguntaByPreguntaIdpregunta = preguntaByPreguntaIdpregunta;
     }
+
+    @Override
+    public String toString() {
+        return "TemaHasPregunta{" +
+                "temaIdtema=" + temaIdtema +
+                ", preguntaIdpregunta=" + preguntaIdpregunta +
+                '}';
+    }
 }

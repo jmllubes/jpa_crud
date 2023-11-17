@@ -71,4 +71,12 @@ public class Respuesta {
     public void setPreguntaByPreguntaIdpregunta(Pregunta preguntaByPreguntaIdpregunta) {
         this.preguntaByPreguntaIdpregunta = preguntaByPreguntaIdpregunta;
     }
+
+    @Override
+    public String toString() {
+        return "Respuesta{" +
+                "idrespuesta=" + idrespuesta +
+                ", respuesta='" + respuesta + '\'' +
+                '}';
+    }
 }

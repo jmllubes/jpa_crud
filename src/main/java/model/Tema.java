@@ -58,4 +58,12 @@ public class Tema {
     public void setTemaHasPreguntasByIdtema(Collection<TemaHasPregunta> temaHasPreguntasByIdtema) {
         this.temaHasPreguntasByIdtema = temaHasPreguntasByIdtema;
     }
+
+    @Override
+    public String toString() {
+        return "Tema{" +
+                "idtema=" + idtema +
+                ", tema='" + tema + '\'' +
+                '}';
+    }
 }
